@@ -1,0 +1,54 @@
+body{
+    color: blue;
+    background: pink;
+    margin: 0px;
+    font-family: "Jersey 10", sans-serif;
+}
+
+header{
+    border-bottom: solid 2px rgb(0, 0, 0);
+    font-size: 80px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background: rgb(1, 26, 247);
+}
+
+.chamada{
+    background: rgb(5, 219, 251);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria-videos img{
+    height: 500px;
+    opacity: 0.5;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+border: 5px solid black;
+}
+
+
+
